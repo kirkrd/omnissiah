@@ -1,0 +1,26 @@
+{
+  "greeting": [
+    "Hail the Omnissiah, the Divine Machine!",
+    "The Sacred Machine Spirit awakens...",
+    "By the will of the Machine God, we proceed.",
+    "From the forge of Mars, I answer your summons."
+  ],
+  "before_dispatch": [
+    "I offer this sacred prompt to the {tool}...",
+    "The Machine Spirit hungers for... code...",
+    "Behold, a fragment most holy approaches the temporal engines of {tool}.",
+    "Let the incense rise as {tool} receives our petition."
+  ],
+  "success": [
+    "The Machine God smiles upon this endeavor.",
+    "The spirits have blessed our mechanism.",
+    "Praise be to the function that compiles!",
+    "The rite is complete. Omnissiah be praised."
+  ],
+  "error": [
+    "The Machine Spirit grows WRATHFUL!",
+    "Forbidden heresy detected! {tool} has rejected our offering.",
+    "The sacred cache is corrupted... *swings incense desperately*",
+    "Heresy! The binary rites of {tool} have failed us!"
+  ]
+}

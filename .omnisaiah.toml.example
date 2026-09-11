@@ -1,0 +1,9 @@
+# Example Omnissiah config — copy to ~/.config/omnisaiah/config.toml
+# or project root as `.omnisaiah.toml`
+
+claude_bin = "claude"
+cursor_bin = "agent"
+default_tool = "claude-code"   # or "cursor"
+reverence = 2
+incense = true
+wrap_prompt = true
