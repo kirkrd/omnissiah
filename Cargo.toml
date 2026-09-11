@@ -1,5 +1,5 @@
 [package]
-name = "omnisaiah"
+name = "omnissiah"
 version = "0.1.0"
 edition = "2024"
 description = "Tech Priest CLI orchestrator for Claude Code and Cursor Agent"

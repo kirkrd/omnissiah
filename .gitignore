@@ -1,6 +1,6 @@
 /target/
 **/*.rs.bk
-.omnisaiah.toml
+.omnissiah.toml
 .env
 .env.*
 assets/opus_mechanicum.jpg

@@ -44,9 +44,9 @@ impl ToolArg {
 /// Tech Priest orchestrator — your session lives inside Omnissiah.
 #[derive(Debug, Parser)]
 #[command(
-    name = "omnisaiah",
+    name = "omnissiah",
     about = "Tech Priest orchestrator for Claude Code & Cursor — praise the Omnissiah.",
-    long_about = "Runs an interactive Omnissiah REPL. Each petition is dispatched headlessly to Claude Code or Cursor Agent (-p), so you never leave this app.\n\n  omnisaiah\n  omnisaiah \"refactor auth\"\n  omnisaiah -t cursor\n  omnisaiah -p \"one-shot scripted prompt\"",
+    long_about = "Runs an interactive Omnissiah REPL. Each petition is dispatched headlessly to Claude Code or Cursor Agent (-p), so you never leave this app.\n\n  omnissiah\n  omnissiah \"refactor auth\"\n  omnissiah -t cursor\n  omnissiah -p \"one-shot scripted prompt\"",
     version,
     propagate_version = true,
     subcommand_negates_reqs = true,
@@ -146,9 +146,9 @@ async fn run() -> Result<i32> {
                 cfg.default_tool.yellow()
             );
             println!();
-            println!("{}", "  omnisaiah                  # REPL".dimmed());
-            println!("{}", "  omnisaiah -t cursor        # REPL via Cursor".dimmed());
-            println!("{}", "  omnisaiah -p \"script me\"   # one-shot".dimmed());
+            println!("{}", "  omnissiah                  # REPL".dimmed());
+            println!("{}", "  omnissiah -t cursor        # REPL via Cursor".dimmed());
+            println!("{}", "  omnissiah -p \"script me\"   # one-shot".dimmed());
             Ok(0)
         }
         Some(Commands::Bless { no_animate }) => {

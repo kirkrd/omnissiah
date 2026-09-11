@@ -577,7 +577,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "omnisaiah"
+name = "omnissiah"
 version = "0.1.0"
 dependencies = [
  "anyhow",

@@ -1,5 +1,5 @@
-# Example Omnissiah config — copy to ~/.config/omnisaiah/config.toml
-# or project root as `.omnisaiah.toml`
+# Example Omnissiah config — copy to ~/.config/omnissiah/config.toml
+# or project root as `.omnissiah.toml`
 
 claude_bin = "claude"
 cursor_bin = "agent"

@@ -78,12 +78,12 @@ fn find_config_file() -> Option<PathBuf> {
         }
     }
     if let Some(home) = dirs::home_dir() {
-        dirs.push(home.join(".config").join("omnisaiah"));
+        dirs.push(home.join(".config").join("omnissiah"));
         dirs.push(home);
     }
 
     for dir in dirs {
-        for name in [".omnisaiah.toml", ".tech-priest.toml", "config.toml"] {
+        for name in [".omnissiah.toml", ".tech-priest.toml", "config.toml"] {
             let p = dir.join(name);
             if p.is_file() {
                 return Some(p);

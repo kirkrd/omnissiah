@@ -11,10 +11,10 @@ cargo install --path . --force
 ## Usage
 
 ```bash
-omnisaiah                       # interactive REPL (default: claude-code)
-omnisaiah -t cursor             # REPL via Cursor Agent
-omnisaiah "refactor auth"       # REPL, first turn pre-filled
-omnisaiah -p "scripted prompt"  # one-shot, no REPL
+omnissiah                       # interactive REPL (default: claude-code)
+omnissiah -t cursor             # REPL via Cursor Agent
+omnissiah "refactor auth"       # REPL, first turn pre-filled
+omnissiah -p "scripted prompt"  # one-shot, no REPL
 ```
 
 Inside the REPL:
@@ -39,7 +39,7 @@ Follow-up turns pass `--continue` to the underlying tool so conversation persist
 
 ## Config
 
-`.omnisaiah.toml` or `~/.config/omnisaiah/config.toml`:
+`.omnissiah.toml` or `~/.config/omnissiah/config.toml`:
 
 ```toml
 claude_bin = "claude"
