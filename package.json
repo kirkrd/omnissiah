@@ -1,0 +1,30 @@
+{
+  "name": "omnissiah",
+  "version": "0.2.0",
+  "description": "Tech-Priest session manager for AI coding — commune with Claude Code and Cursor Agent from a Mechanicus cogitator.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "omnissiah": "bin/omnissiah.js"
+  },
+  "files": ["bin", "server", "shared", "dist"],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node bin/omnissiah.js --dev",
+    "dev:web": "vite",
+    "build": "vite build",
+    "start": "node bin/omnissiah.js",
+    "test": "node --test server/*.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "dompurify": "3.2.4",
+    "marked": "15.0.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "6.2.0"
+  }
+}

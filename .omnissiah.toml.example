@@ -1,9 +1,16 @@
 # Example Omnissiah config — copy to ~/.config/omnissiah/config.toml
-# or project root as `.omnissiah.toml`
+# or to a project root as `.omnissiah.toml`
 
 claude_bin = "claude"
 cursor_bin = "agent"
 default_tool = "claude-code"   # or "cursor"
-reverence = 2
+reverence = 2                  # 0 raw … 3 divine rite (prompt wrapping)
 incense = true
 wrap_prompt = true
+port = 4040
+open_browser = true
+
+# Extra flags for every headless dispatch. Headless spirits cannot ask for
+# permission, so grant what you are comfortable with:
+claude_args = "--permission-mode acceptEdits"
+cursor_args = ""

@@ -22,5 +22,10 @@
     "Forbidden heresy detected! {tool} has rejected our offering.",
     "The sacred cache is corrupted... *swings incense desperately*",
     "Heresy! The binary rites of {tool} have failed us!"
+  ],
+  "aborted": [
+    "The rite is severed. The Machine Spirit falls silent.",
+    "Communion broken by the Magos' own hand.",
+    "The cogitator is stilled. Let the oils cool."
   ]
 }
